@@ -28,8 +28,8 @@ function Projects() {
               isBlog={false}
               title="Food-101 Classifier"
               description={`Fine-tuned ViT-B/32 on the Food-101 dataset. Built a robust preprocessing pipeline and custom classification head — achieved ~80.97% Top-1 accuracy.`}
-              ghLink="https://huggingface.co/spaces/Ashirwad12/food-vision"
-              demoLink="#" // Update with your actual demo link
+              ghLink="https://github.com/ashir1S/Food-Vision"
+              demoLink="https://huggingface.co/spaces/Ashirwad12/food-vision" // Update with your actual demo link
             />
           </Col>
 
