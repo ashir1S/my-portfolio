@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Food-101 Classifier"
               description={`Fine-tuned ViT-B/32 on the Food-101 dataset. Built a robust preprocessing pipeline and custom classification head — achieved ~80.97% Top-1 accuracy.`}
-              ghLink="https://github.com/ashir1S/food-101-classifier"
+              ghLink="https://huggingface.co/spaces/Ashirwad12/food-vision"
               demoLink="#" // Update with your actual demo link
             />
           </Col>
@@ -39,8 +39,8 @@ function Projects() {
               isBlog={false}
               title="Dog Breed Classifier"
               description={`Fine-tuned ResNet-50 on a multi-breed dataset. Achieved ~90.7% validation accuracy. Implemented device-agnostic inference and checkpointing.`}
-              ghLink="https://github.com/ashir1S/dog-breed-classifier"
-              demoLink="#" // Update with your actual demo link
+              ghLink="https://github.com/ashir1S/Dog-Breed-Classifier"
+              demoLink="https://huggingface.co/spaces/Ashirwad12/Dog_Breed_Classifier" // Update with your actual demo link
             />
           </Col>
         </Row>
@@ -53,7 +53,7 @@ function Projects() {
               isBlog={false}
               title="Sales Data Analysis"
               description={`Data cleaning, exploratory analysis and visualization using Pandas, NumPy, and Seaborn. Identified revenue trends, seasonality and actionable insights.`}
-              ghLink="https://github.com/ashir1S/sales-data-analysis"
+              ghLink="https://github.com/ashir1S/sales-analysis"
             />
           </Col>
 
