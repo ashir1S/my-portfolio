@@ -6,24 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
-// NEW — Achievements Component (inline, no separate file needed)
-function Achievements() {
-  return (
-    <div className="achievement-section" style={{ padding: "20px 0" }}>
-      <h1 className="project-heading">
-        <strong className="purple">Achievements</strong>
-      </h1>
-
-      <ul style={{ fontSize: "1.2em", marginTop: "20px" }}>
-        <li>🏆 Secured <strong>2nd place</strong> among 250 teams in national hackathon</li>
-        <li>🚗 Built Driver Gaze Detection System using CV + DL</li>
-        <li>🧠 Experience with ML, DL, and deployed multiple AI projects</li>
-        <li>📚 MCA student at Thapar University</li>
-      </ul>
-    </div>
-  );
-}
+import Achievements from "./Achievements";   // <-- IMPORTANT IMPORT
 
 function About() {
   return (
@@ -54,7 +37,7 @@ function About() {
           </Col>
         </Row>
 
-        {/* ⭐ Achievements Section added here */}
+        {/* ⭐ Achievements Section (imported from Achievements.js) */}
         <Achievements />
 
         <h1 className="project-heading" style={{ marginTop: "30px" }}>

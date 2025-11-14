@@ -18,7 +18,6 @@ function Achievements() {
           <ul style={{ marginTop: "5px" }}>
             <li>• Jet particle classification using physics-based features</li>
             <li>• CNN-based jet particle image classification</li>
-            <li>• PCA for dimensionality reduction</li>
             <li>• Autoencoder-based anomaly detection</li>
             <li>• Model comparison & insights</li>
           </ul>
