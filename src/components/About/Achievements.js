@@ -1,3 +1,5 @@
+import React from "react";
+
 function Achievements() {
   return (
     <div className="achievement-section" style={{ padding: "20px 0" }}>
@@ -5,31 +7,52 @@ function Achievements() {
         <strong className="purple">Achievements</strong>
       </h1>
 
-      <ul style={{ fontSize: "1.2em", marginTop: "20px", listStyle: "none" }}>
-        <li>
-          🏆 Secured <strong>2nd position</strong> in the 
-          <strong> Data Analytics event</strong> at the 
-          <strong> National Students' Space Challenge (NSSC 2025)</strong>, 
-          hosted by <strong>IIT Kharagpur</strong>.
+      {/* Clean & properly aligned achievement list */}
+      <ul
+        style={{
+          fontSize: "1.2em",
+          marginTop: "25px",
+          marginLeft: "0",
+          paddingLeft: "0",
+          listStyle: "none",
+          lineHeight: "1.7",
+          textAlign: "left",
+          maxWidth: "800px",
+          margin: "25px auto",
+        }}
+      >
+        <li style={{ marginBottom: "25px" }}>
+          🏆 Secured <strong>2nd position</strong> in the{" "}
+          <strong>Data Analytics event</strong> at the{" "}
+          <strong>National Students' Space Challenge (NSSC 2025)</strong>, hosted
+          by <strong>IIT Kharagpur</strong>.
         </li>
 
-        <li style={{ marginTop: "10px" }}>
+        <li
+          style={{
+            marginBottom: "15px",
+            marginTop: "10px",
+          }}
+        >
           🚀 Presented a complete multimodal ML solution including:
-          <ul style={{ marginTop: "5px" }}>
-            <li>• Jet particle classification using physics-based features</li>
-            <li>• CNN-based jet particle image classification</li>
-            <li>• Autoencoder-based anomaly detection</li>
-            <li>• Model comparison & insights</li>
-          </ul>
         </li>
 
-        <li style={{ marginTop: "10px" }}>
-          🎓 Proudly represented 
-          <strong> Thapar Institute of Engineering & Technology</strong>.
-        </li>
+        <ul
+          style={{
+            listStyle: "none",
+            marginLeft: "35px",
+            paddingLeft: "0",
+            lineHeight: "1.6",
+          }}
+        >
+          <li>• Jet particle classification using physics-based features</li>
+          <li>• CNN-based jet particle image classification</li>
+          <li>• Autoencoder-based anomaly detection</li>
+          <li>• Model comparison & insights</li>
+        </ul>
       </ul>
     </div>
   );
 }
 
-export default Achievements;   // <-- REQUIRED!
+export default Achievements;
