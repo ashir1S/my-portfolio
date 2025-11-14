@@ -31,3 +31,5 @@ function Achievements() {
     </div>
   );
 }
+
+export default Achievements;   // <-- REQUIRED!
