@@ -7,42 +7,37 @@ function Achievements() {
         <strong className="purple">Achievements</strong>
       </h1>
 
-      {/* Clean & properly aligned achievement list */}
       <ul
         style={{
           fontSize: "1.2em",
           marginTop: "25px",
-          marginLeft: "0",
           paddingLeft: "0",
           listStyle: "none",
           lineHeight: "1.7",
           textAlign: "left",
-          maxWidth: "800px",
-          margin: "25px auto",
+          maxWidth: "900px",
+          margin: "0 auto",
         }}
       >
-        <li style={{ marginBottom: "25px" }}>
+        <li style={{ marginBottom: "20px" }}>
           🏆 Secured <strong>2nd position</strong> in the{" "}
           <strong>Data Analytics event</strong> at the{" "}
           <strong>National Students' Space Challenge (NSSC 2025)</strong>, hosted
           by <strong>IIT Kharagpur</strong>.
         </li>
 
-        <li
-          style={{
-            marginBottom: "15px",
-            marginTop: "10px",
-          }}
-        >
+        <li style={{ marginBottom: "10px" }}>
           🚀 Presented a complete multimodal ML solution including:
         </li>
 
+        {/* Sub list with dots — left aligned */}
         <ul
           style={{
             listStyle: "none",
-            marginLeft: "35px",
-            paddingLeft: "0",
+            paddingLeft: "20px",
+            marginTop: "5px",
             lineHeight: "1.6",
+            textAlign: "left",
           }}
         >
           <li>• Jet particle classification using physics-based features</li>
