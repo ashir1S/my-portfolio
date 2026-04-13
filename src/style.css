@@ -23,7 +23,7 @@ button:focus {
 }
 
 /* --------- */
-/*  Preloader */
+/* Preloader */
 /* --------- */
 #preloader {
   position: fixed;
@@ -114,7 +114,6 @@ button:focus {
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
 
@@ -209,39 +208,24 @@ button:focus {
 /* Home section */
 /* --------- */
 .wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.1s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
   display: inline-block;
 }
 
 @keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
 }
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -712,12 +696,8 @@ button:focus {
   animation-duration: 0.85s;
 }
 @keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(1.5); }
+  100% { transform: scale(1); }
 }
 
 .fork-btn {
@@ -740,4 +720,15 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* ------------------------------------------- */
+/* CUSTOM PROFILE PIC CIRCLE FRAME (NEW ADDITION) */
+/* ------------------------------------------- */
+.profile-pic-frame {
+  border-radius: 50% !important;
+  border: 5px solid #c770f0 !important; /* Matches your purple theme */
+  box-shadow: 0 5px 15px rgba(199, 112, 240, 0.4) !important;
+  object-fit: cover !important;
+  aspect-ratio: 1 / 1 !important; /* Keeps it perfectly round */
 }
