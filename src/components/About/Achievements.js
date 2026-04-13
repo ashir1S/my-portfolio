@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 
 // IMPORT YOUR IMAGES HERE
-// Make sure the filenames match what is in your Assets folder
 import iitBhuCert from "../../Assets/iit_bhu_cert.jpeg";
 import iitMadrasCert from "../../Assets/iit_madras_cert.jpg";
 import iimIndoreCert from "../../Assets/iim_indore_cert.jpg";
@@ -11,6 +10,12 @@ import iitKgpCert from "../../Assets/iit_kgp_cert.jpeg";
 
 function Achievements() {
   const achievementData = [
+    {
+      title: "1st Runner-Up, Data Analytics, NSSC 2025",
+      organization: "IIT Kharagpur · Dec 2025",
+      description: "Developed a Multimodal ML solution for high-energy physics. Implemented CNNs for jet particle classification and Autoencoders for anomaly detection, securing 2nd place nationally.",
+      image: iitKgpCert,
+    },
     {
       title: "National Finalist – Serve Smart Hackathon (Jagriti’26)",
       organization: "IIT (BHU), Varanasi · Feb 2026",
@@ -28,12 +33,6 @@ function Achievements() {
       organization: "IIM Indore · Jan 2026",
       description: "Selected as a National Finalist in HackWise 2026, the flagship management festival of IIM Indore, after successfully clearing competitive preliminary evaluation stages.",
       image: iimIndoreCert,
-    },
-    {
-      title: "1st Runner-Up, Data Analytics, NSSC 2025",
-      organization: "IIT Kharagpur · Dec 2025",
-      description: "Developed a Multimodal ML solution for high-energy physics. Implemented CNNs for jet particle classification and Autoencoders for anomaly detection, securing 2nd place nationally.",
-      image: iitKgpCert,
     }
   ];
 
@@ -53,7 +52,7 @@ function Achievements() {
             <Col md={4}>
               <img
                 src={ach.image}
-                alt="achievement-img"
+                alt={ach.title}
                 style={{ width: "100%", borderRadius: "10px", border: "1px solid #8a49a8" }}
               />
             </Col>
