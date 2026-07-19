@@ -86,7 +86,7 @@ function Projects() {
               imgPath={food101Img}
               isBlog={false}
               title="Food-101 Classifier"
-              description="Fine-tuned ViT-B/32 on the Food-101 dataset. Built a robust preprocessing pipeline and custom classification head — achieved ~80.97% Top-1 accuracy."
+              description="A transfer-learning vision classifier mapping input images into 101 food categories. Integrates a pre-trained Vision Transformer (ViT-B/32) backbone and a custom LayerNorm MLP, deployed via a Gradio web application. Utilizes an interactive Hugging Face Spaces interface alongside robust fine-tuning, achieving an 80.97% Top-1 accuracy metric across a 25,250-image benchmark testing dataset during rapid inference."
               ghLink="https://github.com/ashir1S/Food-Vision"
               demoLink="https://huggingface.co/spaces/Ashirwad12/food-vision"
             />
