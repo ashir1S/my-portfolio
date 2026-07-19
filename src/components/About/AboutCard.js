@@ -23,17 +23,17 @@ function AboutCard() {
             I love solving real-world problems through innovative tech solutions.
             <br />
             <br />
-            Apart from coding and building machine learning pipelines, some other activities that I love to do:
+            Apart from coding, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Leading an international gaming alliance (Utopia Origin)
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Competing in data analytics and AI hackathons
+              <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Composing bilingual poetry and lyrics (English & Hindi)
+              <ImPointRight /> Exploring new technologies
             </li>
           </ul>
 
