@@ -19,15 +19,15 @@ function Home2() {
               Hello! I'm <b className="purple">Ashirwad Sinha</b> from Patna, India.
               <br />
               <br />
-              I'm currently pursuing a <b className="purple">Master of Computer Applications (MCA)</b> at Thapar Institute of Engineering & Technology.
-              My core interests are in <b className="purple">Artificial Intelligence, Machine Learning</b>, and <b className="purple">Computer Vision</b>.
+              I'm currently pursuing a <b className="purple">Master of Computer Applications (MCA)</b> at Thapar Institute of Engineering & Technology, and I am an incoming Analyst at <b className="purple">Deloitte USI</b>. 
+              My core interests lie in <b className="purple">Artificial Intelligence, Deep Learning</b>, and <b className="purple">Computer Vision</b>.
               <br />
               <br />
-              I'm comfortable with languages and tools like{" "}
-              <b className="purple">C / C++, Python, PyTorch, NumPy, and Pandas</b>. I work with databases such as <b className="purple">MySQL</b> and enjoy building end-to-end ML projects, often deploying demos on <b className="purple">Hugging Face Spaces</b>.
+              I'm highly comfortable with languages and tools like{" "}
+              <b className="purple">Python, C/C++, PyTorch, OpenCV, and Pandas</b>. I enjoy building end-to-end machine learning pipelines, deploying interactive applications with <b className="purple">Streamlit and Gradio</b>, and hosting models on <b className="purple">Hugging Face Spaces</b>.
               <br />
               <br />
-              Some projects I've developed include a <b className="purple">Food-101 classifier</b>, a <b className="purple">Dog Breed classifier</b>, and a <b className="purple">Driver Gaze Detection system</b>. I focus on building practical, high-impact AI solutions.
+              Recently, my focus has been on competitive data science and AI hackathons. Some of my notable works include the <b className="purple">DEVision (Driver Gaze) System</b>, <b className="purple">S.E.N.T.I.N.E.L. Drone Analysis</b>, and the <b className="purple">OmniJet Particle Classifier</b>. I thrive on building practical, highly robust AI solutions that solve real-world problems.
             </p>
           </Col>
 

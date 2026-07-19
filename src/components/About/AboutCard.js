@@ -11,31 +11,29 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ashirwad Sinha </span>
             from <span className="purple"> Patna, India.</span>
             <br />
-            I am currently pursuing my{" "}
-            <span className="purple">Master of Computer Applications (MCA) </span> 
-            at Thapar Institute of Engineering and Technology.
+            I am an incoming Analyst at <span className="purple">Deloitte USI</span>.
             <br />
-            I have completed my{" "}
-            <span className="purple">Bachelor of Computer Applications (BCA) </span> 
+            Currently, I am pursuing my <span className="purple">Master of Computer Applications (MCA) </span> 
+            at Thapar Institute of Engineering and Technology, having previously completed my 
+            <span className="purple"> Bachelor of Computer Applications (BCA) </span> 
             at Patliputra University, Patna.
             <br />
             <br />
-            I am passionate about{" "}
-            <span className="purple">Artificial Intelligence, Machine Learning, and Computer Vision </span>.
+            I am passionate about <span className="purple">Artificial Intelligence, Machine Learning, and Computer Vision</span>. 
             I love solving real-world problems through innovative tech solutions.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do:
+            Apart from coding and building machine learning pipelines, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Leading an international gaming alliance (Utopia Origin)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring New Tech
+              <ImPointRight /> Competing in data analytics and AI hackathons
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Composing bilingual poetry and lyrics (English & Hindi)
             </li>
           </ul>
 
