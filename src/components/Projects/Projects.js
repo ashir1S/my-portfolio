@@ -13,7 +13,7 @@ import gazeImg from "../../Assets/Projects/gaze.png";
 import csvjet from "../../Assets/Projects/csvjet.png";
 import hud from "../../Assets/Projects/hud.png";
 import hpcl from "../../Assets/Projects/hpcl.webp";
-import road from "../../Assets/Projects/road.jpeg";
+import road from "../../Assets/Projects/road.jpg";
 
 function Projects() {
   return (
