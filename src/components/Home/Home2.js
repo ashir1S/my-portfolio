@@ -15,7 +15,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
 
-            <p className="home-about-body" style={{ lineHeight: 1.6 }}>
+            {/* Added textAlign: "left" here to override any justified CSS and fix the word spacing */}
+            <p className="home-about-body" style={{ lineHeight: 1.6, textAlign: "left" }}>
               Hello! I'm <b className="purple">Ashirwad Sinha</b> from Patna, India.
               <br />
               <br />

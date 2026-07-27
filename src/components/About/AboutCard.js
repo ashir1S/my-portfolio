@@ -7,7 +7,8 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          {/* Changed textAlign to "left" to fix the awkward word spacing */}
+          <p style={{ textAlign: "left" }}>
             Hi Everyone, I am <span className="purple">Ashirwad Sinha </span>
             from <span className="purple"> Patna, India.</span>
             <br />
