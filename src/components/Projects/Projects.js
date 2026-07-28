@@ -6,7 +6,6 @@ import Particle from "../Particle";
 // Existing Image Imports
 import food101Img from "../../Assets/Projects/food101.png";
 import dogbreedImg from "../../Assets/Projects/dogbreed.png";
-import salesImg from "../../Assets/Projects/sales.png";
 import gazeImg from "../../Assets/Projects/gaze.png";
 
 // New Image Imports
@@ -14,6 +13,7 @@ import csvjet from "../../Assets/Projects/csvjet.png";
 import hud from "../../Assets/Projects/hud.png";
 import hpcl from "../../Assets/Projects/hpcl.png";
 import road from "../../Assets/Projects/road.jpg";
+import dashboardImg from "../../Assets/Projects/dashboard.png";
 
 function Projects() {
   return (
@@ -97,7 +97,7 @@ function Projects() {
               imgPath={dogbreedImg}
               isBlog={false}
               title="Dog Breed Classifier"
-              description="Fine-tuned ResNet-50 on a multi-breed dataset. Achieved ~90.7% validation accuracy. Implemented device-agnostic inference and checkpointing."
+              description="An end-to-end deep learning image classification system built with PyTorch and fine-tuned on a ResNet-50 backbone. Features custom data augmentations, dynamic hyperparameter tuning, and model checkpointing to achieve ~90.7% validation accuracy across multi-breed datasets. Engineered with a device-agnostic inference pipeline and deployed live via Hugging Face Spaces."
               ghLink="https://github.com/ashir1S/Dog-Breed-Classifier"
               demoLink="https://huggingface.co/spaces/Ashirwad12/Dog_Breed_Classifier" 
             />
@@ -105,11 +105,12 @@ function Projects() {
 
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={salesImg}
+              imgPath={dashboardImg}
               isBlog={false}
-              title="Sales Data Analysis"
-              description="Data cleaning, exploratory analysis and visualization using Pandas, NumPy, and Seaborn. Identified revenue trends, seasonality and actionable insights."
-              ghLink="https://github.com/ashir1S/sales-analysis"
+              title="Forest Fire Prediction (FWI) System"
+              description="An end-to-end Machine Learning web application predicting the Fire Weather Index (FWI) using meteorological data from the Algerian Forest Fires dataset. Features a regularized Ridge Regression model (R² ≈ 0.984), a Flask backend, and a glassmorphic Tailwind CSS UI. Deployed on AWS Elastic Beanstalk with an automated CI/CD pipeline via AWS CodePipeline."
+              ghLink="https://github.com/ashir1S/forest-fire"
+              demoLink="http://forest-fire-env.eba-5pzht7up.ap-south-1.elasticbeanstalk.com/"
             />
           </Col>
 
