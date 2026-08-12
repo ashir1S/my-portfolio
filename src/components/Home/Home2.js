@@ -15,12 +15,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
 
-            {/* Added textAlign: "left" here to override any justified CSS and fix the word spacing */}
             <p className="home-about-body" style={{ lineHeight: 1.6, textAlign: "left" }}>
               Hello! I'm <b className="purple">Ashirwad Sinha</b> from Patna, India.
               <br />
               <br />
-              I'm currently pursuing a <b className="purple">Master of Computer Applications (MCA)</b> at Thapar Institute of Engineering & Technology, and I am an incoming Analyst at <b className="purple">Deloitte USI</b>. 
+              I'm currently pursuing a <b className="purple">Master of Computer Applications (MCA)</b> at Thapar Institute of Engineering & Technology, and I am an upcoming Software Engineer at <b className="purple">Deloitte USI</b>. 
               My core interests lie in <b className="purple">Artificial Intelligence, Deep Learning</b>, and <b className="purple">Computer Vision</b>.
               <br />
               <br />

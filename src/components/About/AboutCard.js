@@ -7,12 +7,11 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          {/* Changed textAlign to "left" to fix the awkward word spacing */}
           <p style={{ textAlign: "left" }}>
             Hi Everyone, I am <span className="purple">Ashirwad Sinha </span>
             from <span className="purple"> Patna, India.</span>
             <br />
-            I am an incoming Analyst at <span className="purple">Deloitte USI</span>.
+            I am an upcoming Software Engineer at <span className="purple">Deloitte USI</span>.
             <br />
             Currently, I am pursuing my <span className="purple">Master of Computer Applications (MCA) </span> 
             at Thapar Institute of Engineering and Technology, having previously completed my 
